@@ -1,0 +1,5 @@
+THIS IS BOOKS STUFF <br>
+{{$address :=  .Site.Data.booksites.GoodReads.frontURL }}
+{{ range .Site.Data.books }}
+ <a href="{{$address}}{{.GoodReads}}"> {{ .Title }} </a> <br>
+{{ end }}

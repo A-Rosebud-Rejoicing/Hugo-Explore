@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DirAA on A Rosebud Rejoicing</title>
+    <link>/dira/diraa/</link>
+    <description>Recent content in DirAA on A Rosebud Rejoicing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/ribice&#34;&gt;Emir Ribic&lt;/a&gt; 2017</copyright>
+    <lastBuildDate>Mon, 07 May 2018 04:22:57 +0000</lastBuildDate>
+    
+	<atom:link href="/dira/diraa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thething</title>
+      <link>/dira/diraa/thething/</link>
+      <pubDate>Mon, 07 May 2018 02:36:47 +0000</pubDate>
+      
+      <guid>/dira/diraa/thething/</guid>
+      <description>window.location = &amp;ldquo;/dira/diraa/hereis/&amp;rdquo;;  window.location = &amp;ldquo;/dira/diraa/hereis/&amp;rdquo;; The Link</description>
+    </item>
+    
+    <item>
+      <title>Hereis</title>
+      <link>/dira/diraa/hereis/</link>
+      <pubDate>Mon, 07 May 2018 02:10:15 +0000</pubDate>
+      
+      <guid>/dira/diraa/hereis/</guid>
+      <description>What?</description>
+    </item>
+    
+  </channel>
+</rss>

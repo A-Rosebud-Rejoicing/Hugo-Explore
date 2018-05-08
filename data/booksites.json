@@ -1,0 +1,12 @@
+{
+  "Amazon": {
+    "name": "Amazon",
+    "frontURL": ""
+  },
+  
+  "GoodReads": {
+      "name": "GoodReads",
+      "frontURL": "https://www.goodreads.com/book/show/"
+  }
+
+}

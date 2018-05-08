@@ -1,0 +1,25 @@
+<html><head><title>Google APIs - Sample JS Page</title></head>
+<body>
+
+<script>
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=25&playlistId=PLgpNUeGY2V4wxhxBlR-iYCv4_bRXNIVtX&key=AIzaSyBMHHSqhmdJLCrjJ5VO0Hz6Gl54J5RZ-4k", true);
+  xhttp.send();
+  //API KEY AIzaSyBMHHSqhmdJLCrjJ5VO0Hz6Gl54J5RZ-4k
+
+//api - youtube channel
+//GET https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=25&playlistId=PLgpNUeGY2V4wxhxBlR-iYCv4_bRXNIVtX&key=AIzaSyBMHHSqhmdJLCrjJ5VO0Hz6Gl54J5RZ-4k
+
+}
+</script>
+
+<button type="button" onclick="loadDoc()">Request data</button>
+<p id="demo"></p>
+</body></html>

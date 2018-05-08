@@ -1,0 +1,30 @@
+# YAML doc of social medias
+---
+- media: 
+    name: facebook 
+    prefix: https://www.facebook.com/
+    default: TheEmperoroftheRepublic
+    display: Kalika Curry on Facebook
+    pages:
+     - title: A Rosebud Rejoicing
+  
+     - title: The Emperor of the Republic
+       name: Kalika Curry
+    
+- media: 
+    name: Twitter
+    display: A Rosebud Rejoicing on Twitter
+    prefix: https://twitter.com/
+    default: KalikaKay
+    pages:
+     - title: A Rosebud Rejoicing
+       name: Kalika Kay
+    
+- media: 
+    name: LinkedIn
+    display: Kalika Curry on LinkedIn
+    default: KalikaKay
+    prefix: https://linkedin.com/in/
+    pages:
+     - title: KalikaKay
+       name: Kalika Curry
