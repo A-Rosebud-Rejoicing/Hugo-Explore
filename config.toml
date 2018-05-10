@@ -6,7 +6,7 @@ Title = "A Rosebud Rejoicing"
 theme = "showcase"
 
 #Kiss Configurations
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
+#copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
 googleAnalytics = ""
 # Number of posts per page
