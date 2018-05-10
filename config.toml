@@ -2,11 +2,10 @@
 languageCode = "en-us"
 Title = "A Rosebud Rejoicing"
 #theme = "ga-hugo-theme"
-theme = "kiss"
-
+#theme = "kiss"
+theme = "showcase"
 
 #Kiss Configurations
-#title = "Hugo Kiss theme"
 copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 #disqusShortname = "shortname"
 googleAnalytics = ""
@@ -23,6 +22,8 @@ enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "A Rosebud Rejoicing" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
+
+
 
 
 [params.opengraph.facebook]

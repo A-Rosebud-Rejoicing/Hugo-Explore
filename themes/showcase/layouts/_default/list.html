@@ -1,0 +1,55 @@
+{{ partial "header" . }}
+{{ partial "banner" . }}
+
+{{ .Content }}
+
+{{ if gt (len .Sections) 0}}
+
+    {{ $paginator := .Paginate (.Pages) 1 }}
+    {{ partial "nav" . }}
+
+    <div id="list-content">
+    {{ range $paginator.Pages }}
+       {{ .Title }}  {{ .Content }} <br> 
+    {{ end }}
+    </div>
+
+    <div id="list-sections" style="display:none">
+    {{ range .Sections }}
+       <a href="{{ .URL }} "> {{ .Title }} </a><br> 
+    {{ end }}
+    <br>
+    </div>
+{{ else }}
+   <div class="container">
+    {{ $eval := .Paginator.TotalNumberOfElements }}
+    {{ range sort .Paginator.Pages }}
+    <article>
+      <div class="subtitle is-6 is-pulled-right">
+        {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+        {{ end }}
+      </div>
+        {{ if ne ( $eval ) 1}}
+          <div class="content">
+            {{ partial "page-title-link" . }}
+            {{ .Summary | plainify | safeHTML }}
+            {{ if .Truncated }}
+              <a class="button is-link" href="{{ .URL }}" style="height:28px">
+              Read more
+              <span class="icon is-small">
+                <i class="fa fa-angle-double-right"></i>
+              </span>
+            </a>
+            {{ end }}
+        {{ else }}
+            {{ partial "page-title" . }}
+            {{ .Content }}
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ partial "footer" . }}

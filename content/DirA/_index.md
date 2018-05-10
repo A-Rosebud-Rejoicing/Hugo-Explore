@@ -4,8 +4,6 @@ date: 2018-05-06T19:14:07Z
 draft: false
 ---
 
-My first HUGO site, running on C9 IDE.
-
-Kalika Kay Curry
+This is the _Index.md file inside of Dira
 
 <i> The Emperor of the republic </i>

@@ -1,0 +1,13 @@
+<div class="navigation">
+    {{ if .Paginator.HasPrev }}
+        <a class="button" href="{{ .Paginator.Prev.URL }}">Prev.</a>
+    {{ else }}
+        <button onclick="toggleDisplay('list-sections', 'list-content');">HI KALIKAKAY!</button>
+    {{ end }}
+    
+    {{ if .Paginator.HasNext }}
+        <a class="button" href="{{ .Paginator.Next.URL }}">Next </a>
+    {{ else }}
+        <button onclick="toggleDisplay('list-content', 'list-sections');">HI KALIKAKAY!</button>
+    {{ end }}
+</div>

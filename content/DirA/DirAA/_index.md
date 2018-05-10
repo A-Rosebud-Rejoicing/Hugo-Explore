@@ -4,8 +4,6 @@ date: 2018-05-07T04:22:57Z
 draft: false
 ---
 
-My first HUGO site, running on C9 IDE.
+I'm inside dirAA right now. I forgot somethig and got all confused and now I'm not anymore. 
 
-Kalika Kay Curry
-
-<i> The Emperor of the republic </i>
+A moment of clarity!
