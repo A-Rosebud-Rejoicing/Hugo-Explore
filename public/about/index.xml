@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on A Rosebud Rejoicing</title>
+    <link>/about/</link>
+    <description>Recent content in About on A Rosebud Rejoicing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2018 02:12:26 +0000</lastBuildDate>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/a/</link>
+      <pubDate>Fri, 01 Feb 2013 04:12:51 +0000</pubDate>
+      
+      <guid>/about/a/</guid>
+      <description>A Rosebud Rejoicing is a publishing company specializing in art.
+On February 1, 2013; Kalika Kay Curry determined that she wanted her own company. The name A Rosebud Rejoicing came from the etymology.
+The true birth of the company began as a seed. After being laid off in October of 2014, with ninth months of severance, the young entrepreneur decided that it was an appropriate time as any to register the business.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,13 @@
+
+<div class="responsive">
+    <div class="folder">
+        <div class="folder-title"><h1>{{ .Title }}</h1><br></div>
+            <a href="{{ .URL }}" >
+                {{ if isset .Params "folder_image" }}
+                    <img src="{{ .Params.folder_image  | relURL }}" alt="Lizard">
+                {{ else }}
+                    <img src="{{ "images/simple.jpg"  | relURL }}" alt="Lizard">
+                {{ end }}
+            </a>
+    </div>
+</div>

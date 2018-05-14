@@ -1,5 +1,5 @@
-THIS IS BOOKS STUFF <br>
+<h1> Books by Yolanda Paptie </h1>
 {{$address :=  .Site.Data.booksites.GoodReads.frontURL }}
 {{ range .Site.Data.books }}
- <a href="{{$address}}{{.GoodReads}}"> {{ .Title }} </a> <br>
+ <a href="{{$address}}{{.GoodReads}}"> {{ .Title }} </a> <br> <br>
 {{ end }}

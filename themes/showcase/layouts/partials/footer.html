@@ -1,5 +1,12 @@
 <section class="section">
-  Hey there, cutie
+ <span class="footer">
+    <i>This Hugo theme, Showcase, is developed by 
+    {{with .Site.Params.Info.copyright}}
+    {{ . | safeHTML }}    
+    {{end}}
+    </i><br>
+ </span>
+ {{ partial "facebook.footer" . }}
 </section>
 </body>
 </html>

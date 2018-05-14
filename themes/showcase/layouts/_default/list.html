@@ -1,22 +1,20 @@
 {{ partial "header" . }}
-{{ partial "banner" . }}
-
-{{ .Content }}
+{{ partial "banner-list" . }}
 
 {{ if gt (len .Sections) 0}}
 
     {{ $paginator := .Paginate (.Pages) 1 }}
     {{ partial "nav" . }}
 
-    <div id="list-content">
+    <div id="list-content" class="list-content">
     {{ range $paginator.Pages }}
-       {{ .Title }}  {{ .Content }} <br> 
+       <span class="page-title">{{ .Title }}</span>   {{ .Content }} <br> 
     {{ end }}
     </div>
 
-    <div id="list-sections" style="display:none">
+    <div id="list-sections" class="list-sections" style="display:none">
     {{ range .Sections }}
-       <a href="{{ .URL }} "> {{ .Title }} </a><br> 
+        {{ partial "folder" . }}<br> 
     {{ end }}
     <br>
     </div>
@@ -30,8 +28,9 @@
         {{ partial "tags" .Params.tags }}
         {{ end }}
       </div>
+        <div class="content">
         {{ if ne ( $eval ) 1}}
-          <div class="content">
+          
             {{ partial "page-title-link" . }}
             {{ .Summary | plainify | safeHTML }}
             {{ if .Truncated }}
@@ -46,10 +45,10 @@
             {{ partial "page-title" . }}
             {{ .Content }}
         {{ end }}
-      </div>
+        </div>
     </article>
     {{ end }}
-  </div>
+   </div>
 {{ end }}
 
 {{ partial "footer" . }}

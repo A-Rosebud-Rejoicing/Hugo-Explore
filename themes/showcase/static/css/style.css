@@ -1,0 +1,206 @@
+/*************************************************************
+#Folders/Responsive button gallery 
+*************************************************************/
+.responsive {
+    padding: 50px 10px 5px;
+    float: left;
+    width: 24.99999%;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+div.folder {
+    border: 1px solid black;
+   
+}
+
+div.folder:hover {
+    opacity: 0.3;
+    
+}
+
+div.folder img {
+    width: 100%;
+    border-radius: 30%;
+    box-shadow: 1px 4px 20px 1px rgba(192,192,192,0.3), 6px 6px 20px 6px rgba(192,192,192,1);
+    height: 250px;
+}
+
+
+.folder-title {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  
+}
+
+
+/************************************************************
+#Navigation 
+************************************************************/
+
+.navigation a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #F9EDF5;
+    color: #dd92d7;
+    border-radius: 70%;
+    margin: auto;
+    width: 15%;
+}
+
+.next {
+    background-color: #dd92d7;
+    color:  #F9EDF5;
+    border-radius: 70%;
+    margin: auto;
+    width: 15%;    
+}
+
+.navigation {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/***************************************************************
+## Content 
+***************************************************************/
+
+body {
+	background: black; 
+	/*color: #d6e08d; */    
+    color:#dd92d7; 
+}
+
+.container,
+.list-content,
+.list-sections {
+	float: left;
+	font-family: Papyrus, fantasy;
+    /* color: #F9EDF5; */
+    color: #d6e08d;    
+    /*color:#dd92d7; */
+    width: 100%;
+} 
+
+.content{
+    font-family: Papyrus, fantasy;
+    color: #d6e08d;    
+
+}
+    
+.page-title {
+    padding-top: 15px;
+    color: #dd92d7;
+}
+.title-date {
+    font-size: 20px;
+    color: rgba(192,192,192,1);
+}
+
+.title {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 16px;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #dd92d7;
+}
+    
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #d6e08d;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:active {
+	color: purple;
+}
+
+
+.footer a:hover {
+	color: #d6e08d;
+}
+
+.footer {
+	background-color: black;
+	color:#dd92d7;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-align: right;
+	font-size: 15px;
+	font-style: italic;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+	width: 100%;
+}
+/****************************************************
+#iFrame
+Styling iFrames to look good in the context.
+****************************************************/
+
+iframe{
+    border-radius: 20px 20px;
+    box-shadow: 1px 4px 20px 1px rgba(192,192,192,0.3), 6px 6px 20px 6px rgba(192,192,192,1);
+   
+}
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .footer {
+	display: block;
+}
+

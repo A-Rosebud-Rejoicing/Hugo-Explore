@@ -1,10 +1,9 @@
 {{ partial "header" . }}
-{{ partial "banner" . }}
+{{ partial "banner-single" . }}
 
 <section class="section">
   <div class="container">
-    {{if not .Date.IsZero }}<h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }}</h2>{{ end }}
-    <h1 class="title">{{ .Title }}</h1>
+   {{ partial "page-title" . }}
     <div class="content">
       {{ .Content }}
     </div>

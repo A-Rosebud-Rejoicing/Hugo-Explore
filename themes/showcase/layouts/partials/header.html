@@ -9,7 +9,15 @@
 <title>{{ .Site.Params.Info.homeTitle }}</title>
 {{ end }}
 {{ .Hugo.Generator }}
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}"/>
+{{ partial "facebook.meta" . }}
+<link rel="stylesheet" href="/css/style.css"/>
+
+{{- range .Site.Params.Assets.customCSS -}}
+<link rel="stylesheet" href="{{ . | relURL }}"/>    
+{{- end -}}
+
 <script src="{{ "js/dom.js" | relURL }}"></script>
+
 </head>
 <body>
+    {{ partial "facebook.body" . }}

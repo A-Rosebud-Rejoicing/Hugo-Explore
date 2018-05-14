@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on A Rosebud Rejoicing</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on A Rosebud Rejoicing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 May 2018 04:22:57 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meet the Jester</title>
+      <link>/blog/daily/</link>
+      <pubDate>Thu, 10 May 2018 04:12:51 +0000</pubDate>
+      
+      <guid>/blog/daily/</guid>
+      <description>There was this woman who thought she found somebody.
+She could have sworn it was a beginning of something incredible.
+It was all that she could muster to pull herself together to admit that she was hopeful.
+Never proud.
+Never inconsiderate.
+Never empty.
+She built herself up without somebody.
+There&amp;rsquo;s nothing like a game of chess with the unwitting.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,5 @@
+{{ range .Site.Data.socialmedia }}
+<div class="social">
+ <a href="{{.media.prefix}}{{.media.default}}"> {{ .media.display }}</a> <br>
+</div>
+{{ end }}

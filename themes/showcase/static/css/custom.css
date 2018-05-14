@@ -1,0 +1,130 @@
+/************************************
+#Banner - that thing that appears as your site title at the top of the page.
+# sometimes it includes a description of the page
+***************************************/
+
+.banner-title {
+	width:100%;
+	text-align: center;
+	font-family: Cambria, Georgia, serif;
+	left: 0;
+	font-weight: bold;
+	margin: 0px 0 0 0;
+	font-size: 60px;
+	text-shadow: 2px 2px 4px #dd92d7;
+	color: #F9EDF5;
+}
+
+.banner-description {
+	width:100%;
+	margin: 0 0 0 0;
+	text-align: center;
+	font-family: 	Futura, "Trebuchet MS", Arial, sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	color:#dd92d7;
+}
+
+.banner-list,
+.banner-single
+{
+    width:100%;   
+}
+/***************************************************************
+## Content 
+***************************************************************/
+
+body {
+	background: black; 
+	/*color: #d6e08d; */    
+    color:#dd92d7; 
+}
+
+
+.list-content,
+.list-sections {
+	float: left;
+	font-family: Papyrus, fantasy;
+    /* color: #F9EDF5; */
+   /* color: #d6e08d; */   
+    /*color:#dd92d7; */
+    color: #ffffe6;
+    font-size: 20px;
+    width: 100%;
+    line-height: 20px;
+} 
+
+.content{
+    font-family: Papyrus, fantasy;
+    color: #ffffe6;    
+    font-size: 20px;
+    line-height: 20px;
+}
+    
+    
+    
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #d6e08d;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:active {
+	color: purple;
+}
+
+
+.footer a:hover {
+	color: #d6e08d;
+}
+
+.footer {
+	background-color: black;
+	color:#dd92d7;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-align: right;
+	font-size: 15px;
+	font-style: italic;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .footer { /* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .footer {
+	display: block;
+}
+

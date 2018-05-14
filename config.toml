@@ -5,9 +5,8 @@ Title = "A Rosebud Rejoicing"
 #theme = "kiss"
 theme = "showcase"
 
-#Kiss Configurations
-#copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
-#disqusShortname = "shortname"
+#Showcase Configs
+
 googleAnalytics = ""
 # Number of posts per page
 Paginate = 5
@@ -22,7 +21,7 @@ enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "A Rosebud Rejoicing" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
-
+copyright = "<a href=\"https://github.com/A-Rosebud-Rejoicing\">A Rosebud Rejoicing</a> 2018"
 
 
 

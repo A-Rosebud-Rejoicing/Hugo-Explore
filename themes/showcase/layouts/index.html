@@ -1,37 +1,38 @@
 {{ partial "header" . }}
-{{ partial "banner" . }}
-
-{{ .Content }}
-
-
+{{ partial "banner-list" . }}
 
 {{ if gt (len .Sections) 0}}
-
-{{ $paginator := .Paginate (where .Pages "Section" "" ) 1 }}
-{{ partial "nav" . }}
-
-<div id="list-content">
-{{ range $paginator.Pages }}
-   {{ .Title }}  {{ .Content }} <br> 
-{{ end }}
-</div>
-
-<div id="list-sections" style="display:none">
-{{ range .Sections }}
-   <a href="{{ .URL }} "> {{ .Title }} </a><br> 
-{{ end }}
-<br>
-</div>
+  
+  {{ $paginator := .Paginate (where .Pages "Section" "" ) 1 }}
+  {{ $pageTotal := .Paginator.TotalPages }}
+  {{ if ne ($pageTotal) 0 }}
+    {{ partial "nav" . }}
+    
+    <div id="list-content" class="list-content" >
+    {{ range $paginator.Pages }}
+      <span class="page-title">{{ .Title }}</span>   {{ .Content }} <br> 
+    {{ end }}
+    </div>
+    
+    <div id="list-sections" class="list-sections" style="display:none">
+    {{ range .Sections }}
+       {{ partial "folder" . }}
+    {{ end }}
+    <br>
+    </div>
+  {{ else }}
+    <div id="list-sections" class="list-sections">
+    {{ range .Sections }}
+       {{ partial "folder" . }}
+    {{ end }}
+    <br>
+    </div>
+  {{ end }}
 {{ else }}
    <div class="container">
     {{ $eval := .Paginator.TotalPages }}   
     {{ range sort .Paginator.Pages }}
     <article>
-      <div class="subtitle is-6 is-pulled-right">
-        {{ if .Params.tags }}
-        {{ partial "tags" .Params.tags }}
-        {{ end }}
-      </div>
       
       <div class="content">
         

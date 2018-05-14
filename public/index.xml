@@ -6,75 +6,45 @@
     <description>Recent content on A Rosebud Rejoicing</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/ribice&#34;&gt;Emir Ribic&lt;/a&gt; 2017</copyright>
     <lastBuildDate>Sun, 06 May 2018 19:14:07 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Meet the Jester</title>
+      <link>/blog/daily/</link>
+      <pubDate>Thu, 10 May 2018 04:12:51 +0000</pubDate>
+      
+      <guid>/blog/daily/</guid>
+      <description>There was this woman who thought she found somebody.
+She could have sworn it was a beginning of something incredible.
+It was all that she could muster to pull herself together to admit that she was hopeful.
+Never proud.
+Never inconsiderate.
+Never empty.
+She built herself up without somebody.
+There&amp;rsquo;s nothing like a game of chess with the unwitting.</description>
+    </item>
+    
+    <item>
       <title>Books</title>
-      <link>/books/</link>
+      <link>/books/books/</link>
       <pubDate>Tue, 08 May 2018 04:18:03 +0000</pubDate>
       
-      <guid>/books/</guid>
-      <description>THIS IS BOOKS STUFF Life Imitates Art, Tier III: Cake  Life Imitates Art, Tier II: Dinner  Two Black Eyes  Howard Herman (Xenos)  </description>
+      <guid>/books/books/</guid>
+      <description>Books by Yolanda Paptie  Life Imitates Art, Tier III: Cake  Life Imitates Art, Tier II: Dinner  Two Black Eyes  Howard Herman (Xenos)</description>
     </item>
     
     <item>
-      <title>Jimmy</title>
-      <link>/dira/jimmy/</link>
-      <pubDate>Mon, 07 May 2018 12:30:42 +0000</pubDate>
+      <title>About</title>
+      <link>/about/a/</link>
+      <pubDate>Fri, 01 Feb 2013 04:12:51 +0000</pubDate>
       
-      <guid>/dira/jimmy/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Thething</title>
-      <link>/dira/diraa/thething/</link>
-      <pubDate>Mon, 07 May 2018 02:36:47 +0000</pubDate>
-      
-      <guid>/dira/diraa/thething/</guid>
-      <description>window.location = &amp;ldquo;/dira/diraa/hereis/&amp;rdquo;;  window.location = &amp;ldquo;/dira/diraa/hereis/&amp;rdquo;; The Link</description>
-    </item>
-    
-    <item>
-      <title>Special</title>
-      <link>/dirb/special/</link>
-      <pubDate>Mon, 07 May 2018 02:15:43 +0000</pubDate>
-      
-      <guid>/dirb/special/</guid>
-      <description>This is a page in dirb.
-We&amp;rsquo;re considering implementing a goodreads shortcode! What&amp;rsquo;s needed for the button? Formatting will be done on md file and through templating, naturally. Perhaps I&amp;rsquo;ll have a books page or something. Hell if I know. The thought has occured to me to put up an individual page or link for each book. There are four of them.
-They&amp;rsquo;re all in the Life Imitates Art Family, but only two of them are a part of the series - I&amp;rsquo;m in the middle of writing the next one and then I&amp;rsquo;m going to go back and fix the others.</description>
-    </item>
-    
-    <item>
-      <title>Hereis</title>
-      <link>/dira/diraa/hereis/</link>
-      <pubDate>Mon, 07 May 2018 02:10:15 +0000</pubDate>
-      
-      <guid>/dira/diraa/hereis/</guid>
-      <description>What?</description>
-    </item>
-    
-    <item>
-      <title>A</title>
-      <link>/a/</link>
-      <pubDate>Sun, 06 May 2018 20:44:21 +0000</pubDate>
-      
-      <guid>/a/</guid>
-      <description>This is A.MD file. I created this file for fun and stuff and you know. This text is #e1efe9 </description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>/dira/c/</link>
-      <pubDate>Sun, 06 May 2018 20:39:42 +0000</pubDate>
-      
-      <guid>/dira/c/</guid>
-      <description>This is c.md</description>
+      <guid>/about/a/</guid>
+      <description>A Rosebud Rejoicing is a publishing company specializing in art.
+On February 1, 2013; Kalika Kay Curry determined that she wanted her own company. The name A Rosebud Rejoicing came from the etymology.
+The true birth of the company began as a seed. After being laid off in October of 2014, with ninth months of severance, the young entrepreneur decided that it was an appropriate time as any to register the business.</description>
     </item>
     
   </channel>

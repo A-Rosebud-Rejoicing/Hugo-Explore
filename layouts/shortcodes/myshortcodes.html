@@ -1,7 +1,0 @@
-<p style="color:{{ .Get 0 }};"> This text is {{ .Get 0 }} </p>
-
-THIS IS Social STUFF <br>
-
-{{ range .Site.Data.socialmedia }}
- <a href="{{.media.prefix}}{{.media.default}}"> {{ .media.display }}</a> <br>
-{{ end }}
